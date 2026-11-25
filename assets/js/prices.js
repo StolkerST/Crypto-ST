@@ -83,7 +83,7 @@
       if (node && typeof change === "number" && isFinite(change)) {
         var sign = change >= 0 ? "+" : "";
         node.textContent = sign + change.toFixed(2) + "% (24h)";
-        node.style.color = change >= 0 ? "#16a34a" : "#dc2626";
+        node.style.color = change >= 0 ? "#15803d" : "#dc2626";
       }
     });
     var status = el("prices-updated");
