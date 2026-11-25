@@ -1,0 +1,20 @@
+html,
+* {
+  scroll-behavior: smooth;
+}
+body {
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out !important;
+}
+#mobile-menu.is-closed {
+  box-shadow: none;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  section[id] {
+    scroll-margin-top: -76px;
+  }
+}
